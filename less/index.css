@@ -1,0 +1,67 @@
+.LoginArea {
+  width: 400px;
+  height: 400px;
+  background-color: #EAF2F8;
+  position: absolute;
+  opacity: 0.8;
+  border-radius: 15px;
+  left: 50%;
+  margin-left: -200px;
+  top: 50%;
+  margin-top: -200px;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 40px;
+}
+.loginForm input[type="submit"] {
+  margin: 6px 0;
+  height: 35px;
+  width: 100%;
+  outline: none;
+  background-color: #4169E1;
+  font-weight: bold;
+  color: #EAF2F8;
+  cursor: pointer;
+}
+.loginForm input[type="text"],
+.loginForm [type="password"] {
+  border-style: none  none solid none;
+  border-bottom-color: white;
+  outline: none;
+  margin: 10px 0px 15px 0px;
+  height: 30px;
+  width: 100%;
+}
+.loginForm input[type="text"]:focus,
+.loginForm [type="password"]:focus {
+  border-bottom-color: #4169E1;
+}
+.loginForm .cookieText {
+  background-color: #FFF59D;
+}
+.loginForm .nocookieText {
+  background-color: #EAF2F8;
+}
+.loginForm label {
+  cursor: pointer;
+}
+.loginForm h2,
+.loginForm #remindMessage {
+  color: #4169E1;
+  text-align: center;
+}
+.loginForm a {
+  align-self: flex-end;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+.loginForm a:hover {
+  text-decoration: underline;
+}
+.validateField p {
+  color: red;
+  margin: 0px;
+}

@@ -1,0 +1,41 @@
+@bakcolor:whitesmoke;
+.LoginArea {
+  width: 400px;
+  height: 400px;
+  background-color: @bakcolor;
+  position: absolute;
+  opacity: 0.95;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 40px;
+  submit {
+    margin: 6px 0;
+    height: 35px;
+    width: 100%;
+    background-color: #4169E1;
+    font-weight: bold;
+    color: @bakcolor;
+  }
+  input[type="text"],[type="password"]{
+    margin: 10px 0;
+    height: 30px;
+    width: 100%;
+  }
+
+}
+
+.cookieText {
+  background-color: #FFF59D;
+}
+.nocookieText {
+  background-color: @bakcolor;
+}
+
+.validateField {
+  p{
+    color: red;
+    margin: 0px;
+  }
+}
