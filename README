@@ -12,7 +12,8 @@ js底层的又看起来了  还有尤其是设计模式 我意识到框架只是
 作为一个新手 基础永远是重中之重 哈哈哈哈哈哈哈哈
 不说了 underscore源码看起来
 
-要解决的是用localStorage缓存Redux的state 第二篇教程是关于localstorage的再看一下
+要解决的是用localStorage缓存Redux的state 只要在浏览器的本地存储（localStorage）中，将state进行缓存，就可以（基本）还原用户最后的交互界面了。
+第二篇教程是关于localstorage的再看一下
   https://yq.aliyun.com/articles/229055
   https://www.cnblogs.com/st-leslie/p/5617130.html
   
