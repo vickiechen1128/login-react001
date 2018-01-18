@@ -16,4 +16,7 @@ js底层的又看起来了  还有尤其是设计模式 我意识到框架只是
 第二篇教程是关于localstorage的再看一下
   https://yq.aliyun.com/articles/229055
   https://www.cnblogs.com/st-leslie/p/5617130.html
-  
+关于react-redux的主要是connect方法 还有中间件解决异步的问题，可以看下面这篇文章写的connect的使用
+https://yq.aliyun.com/articles/64906?spm=a2c4e.11153940.blogcont229055.16.63faa916iGYZRO
+心很痛 这个问题感觉应该写到gitbook里面的 但是我的感想并不想写在工具书里哈哈哈哈 
+
