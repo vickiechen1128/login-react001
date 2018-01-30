@@ -1,14 +1,14 @@
 现在来到一家新公司做react移动端的开发 他们用上了我之前一直没看的redux 当然我发现大多数时候用不到，主要要做大范围组件渲染的时候，需要
-dispatch出去一个action，reducer通知store做state的改变渲染出一个新的view。（(・。・)我居然觉得redux挺好理解的）
+dispatch出去一个action，reducer通知store做state的改变渲染出一个新的view。（(・。・)前三遍觉得redux挺好理解的）
 实际应用场景包括门店列表 根据城市和地区的选择来做改变，当然排序这种就不要，因为只是顺序变化，不做新的渲染
-不说了 router也用上 新用了一个withrouter做Url跳转
-git的确是很方便的东西了配合webstorm
+router也用上 新用了一个withrouter api做Url跳转
+git的确是很方便的了配合webstorm
 关键来了
       我
         这次
            主动
               回归本真了
-js底层的又看起来了  还有尤其是设计模式 我意识到框架只是让工作变得快捷 她封装了太多东西
+js底层的又看起来了  主要是没有实际运用 所以设计模式一直似懂非懂 我意识到框架只是让工作变得快捷 她封装了太多东西
 作为一个新手 基础永远是重中之重 哈哈哈哈哈哈哈哈
 不说了 underscore源码看起来
 
@@ -16,7 +16,17 @@ js底层的又看起来了  还有尤其是设计模式 我意识到框架只是
 第二篇教程是关于localstorage的再看一下
   https://yq.aliyun.com/articles/229055
   https://www.cnblogs.com/st-leslie/p/5617130.html
-关于react-redux的主要是connect方法 还有中间件解决异步的问题，可以看下面这篇文章写的connect的使用
+  
+关于react-redux的主要是connect方法和提供provider组件 还有中间件解决异步的问题，可以看下面这篇文章写的connect的使用
 https://yq.aliyun.com/articles/64906?spm=a2c4e.11153940.blogcont229055.16.63faa916iGYZRO
-心很痛 这个问题感觉应该写到gitbook里面的 但是我的感想并不想写在工具书里哈哈哈哈 
+中间件的源码这周看了很多次 很多次 很多次 短短十几行
+
+这些问题感觉应该写到gitbook里面的 有空要理一下
+
+先马一下  http://blog.csdn.net/jiang_mingyi/article/details/64128848
+一直听说mvc的backbone 有时间要了解一下 现在公司的旧系统是纯JQ写的 在处理大量逻辑上 非常累（第一次学原生到使用jq的时候我是开心的0_0） 我尽可能让各个元素
+的class名和id名通俗易懂也好辨认来符合业务逻辑 但是总感觉后人看起来要慢慢的改起来还会有大量dom增减的操作
+table部分是借助art template模板 赏心悦目 查了下es6新增了一种多行字符串的表示方法，用` ... `表示 
+var message1=`hello,${name1},your age is ${age1}`; 不错不错
+
 
