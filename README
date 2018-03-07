@@ -24,9 +24,8 @@ https://yq.aliyun.com/articles/64906?spm=a2c4e.11153940.blogcont229055.16.63faa9
 这些问题感觉应该写到gitbook里面的 有空要理一下
 
 先马一下  http://blog.csdn.net/jiang_mingyi/article/details/64128848
-一直听说mvc的backbone 有时间要了解一下 现在公司的旧系统是纯JQ写的 在处理大量逻辑上 非常累（第一次学原生到使用jq的时候我是开心的0_0） 我尽可能让各个元素
-的class名和id名通俗易懂也好辨认来符合业务逻辑 但是总感觉后人看起来要慢慢的改起来还会有大量dom增减的操作
+尽可能让各个元素的class名和id名通俗易懂也好辨认来符合业务逻辑 但是总感觉后人看起来要慢慢的改起来还会有大量dom增减的操作
 table部分是借助art template模板 赏心悦目 查了下es6新增了一种多行字符串的表示方法，用` ... `表示 
-var message1=`hello,${name1},your age is ${age1}`; 不错不错
+var message1='hello,${name1},your age is ${age1}'; 不错不错
 
 
